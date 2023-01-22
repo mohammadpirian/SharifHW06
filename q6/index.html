@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style/style.css" />
     <title>Document</title>
   </head>
@@ -12,8 +16,16 @@
       <img src="img/savannah.png" alt="" class="img-icon" />
       <h2>LOG IN</h2>
       <form action="" class="form-input">
-        <input type="text" placeholder="username" class="input-txt" />
-        <input type="password" placeholder="password" class="input-txt" />
+        <div class="user-input">
+          <i class="fa fa-user icon"></i>
+          <input type="text" placeholder="username" class="input-txt" />
+        </div>
+
+        <div class="lock-input">
+          <i class="fa fa-lock icon"></i>
+          <input type="password" placeholder="password" class="input-txt" />
+        </div>
+
         <div class="checkbox1">
           <input type="checkbox" />
           <label for="checkbox" class="check-txt"> Remember me</label>

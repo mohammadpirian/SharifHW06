@@ -1,14 +1,3 @@
-:root {
-  --white: #fafafa;
-  --black: #212121;
-  --dark: #333333;
-  --primary: rgb(78, 43, 233);
-  --primary-rgb: 78, 43, 233;
-  --radius: 0.4rem;
-  --radius-lg: 0.8rem;
-  --radius-xl: 1.2rem;
-}
-
 *,
 *::after,
 *::before {
