@@ -1,3 +1,24 @@
+let stepCounter = {
+    counter: 0,
+    increase: function () {
+      this.counter++;
+      return this;
+    },
+    decrease: function () {
+      this.counter--;
+      return this;
+    },
+    reset: function () {
+      this.counter = 0;
+      return this;
+    },
+    read: function () {
+      console.log(this.counter);
+      return this;
+    },
+  };
+
+
 // const increaseBtn = document.getElementById("increase");
 // const decreaseBtn = document.getElementById("decrease");
 // const resetBtn = document.getElementById("reset");
