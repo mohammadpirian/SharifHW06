@@ -61,3 +61,10 @@ h2 {
   border-radius: 25px;
   margin-top: 10px;
 }
+.login-btn:hover {
+  background-color: #fafafa;
+}
+.link-forget:hover {
+  color: #fafafa;
+}
+
