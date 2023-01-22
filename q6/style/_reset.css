@@ -1,0 +1,27 @@
+:root {
+  --white: #fafafa;
+  --black: #212121;
+  --dark: #333333;
+  --primary: rgb(78, 43, 233);
+  --primary-rgb: 78, 43, 233;
+  --radius: 0.4rem;
+  --radius-lg: 0.8rem;
+  --radius-xl: 1.2rem;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+}
