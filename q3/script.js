@@ -28,3 +28,8 @@ let listMember = [
       age: 40,
     },
   ];
+  function sortAge() {
+    return listMember.sort((a, b) => a.age - b.age);
+  }
+  
+  console.log(sortAge());
