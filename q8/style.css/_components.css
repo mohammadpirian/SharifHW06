@@ -1,0 +1,50 @@
+img {
+  width: 25%;
+  height: 25%;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.items {
+  width: 100vw;
+  height: 100vh;
+  transform: rotate(45deg);
+  display: flex;
+  
+}
+.row1 {
+  position: relative;
+  
+}
+.row2 {
+  
+}
+.row3 {
+}
+.row4 {
+  
+}
+.row5 {
+  
+}
+.row6 {
+  
+}
+.item {
+  
+.yellow-box {
+  background-color: yellow;
+}
+.blue-box {
+  background-color: blue;
+}
+.pink-box {
+  background-color: pink;
+}
+.green-box {
+  background-color: green;
+}
+.red-box {
+  background-color: red;
+}
