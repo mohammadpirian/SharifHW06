@@ -1,50 +1,85 @@
 img {
-  width: 25%;
-  height: 25%;
+  width: 300px;
+  height: 300px;
+}
+.item {
+  width: 300px;
+  height: 300px;
 }
 .container {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 .items {
   width: 100vw;
   height: 100vh;
   transform: rotate(45deg);
   display: flex;
-  
+  flex-direction: column;
 }
 .row1 {
+  display: flex;
   position: relative;
-  
+  right: -52.6%;
+  top: -70%;
 }
 .row2 {
-  
+  display: flex;
+  position: relative;
+  right: -37%;
+  top: -70%;
 }
 .row3 {
+  display: flex;
+  position: relative;
+  right: -21.4%;
+  top: -70%;
 }
 .row4 {
-  
+  display: flex;
+  position: relative;
+  right: -5.8%;
+  top: -70%;
 }
 .row5 {
-  
+  display: flex;
+
+  position: relative;
+  right: 9.8%;
+  top: -70%;
 }
 .row6 {
-  
+  display: flex;
+  position: relative;
+  right: 9.8%;
+  top: -70%;
 }
-.item {
-  
+.row7 {
+  display: flex;
+  position: relative;
+  right: -5.8%;
+  top: -70%;
+}
+.row8 {
+  display: flex;
+  position: relative;
+  right: -21.8%;
+  top: -70%;
+}
+
 .yellow-box {
-  background-color: yellow;
+  background-color: #e9b309;
 }
 .blue-box {
-  background-color: blue;
+  background-color: #3b82f6;
 }
 .pink-box {
-  background-color: pink;
+  background-color: #eb489b;
 }
 .green-box {
-  background-color: green;
+  background-color: #23c55e;
 }
 .red-box {
-  background-color: red;
+  background-color: #f04444;
 }
