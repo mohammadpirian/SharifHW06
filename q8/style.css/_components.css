@@ -1,10 +1,10 @@
 img {
-  width: 300px;
-  height: 25vh;
+  width: 225px;
+  height: 225px;
 }
 .item {
-  width: 300px;
-  height: 25vh;
+  width: 225px;
+  height: 225px;
 }
 .container {
   width: 100vw;
@@ -14,9 +14,9 @@ img {
 }
 .items {
   position: absolute;
-  /* top: -4vh;
-  right: -26rem; */
-  width: 125vw;
+  top: 0vh;
+  right: 0rem;
+  width: 100vw;
   height: 100vh;
   transform: rotate(45deg);
   display: flex;
@@ -25,44 +25,44 @@ img {
 .row1 {
   display: flex;
   position: relative;
-  right: -52.6%;
+  right: -54.3%;
   top: -70%;
 }
 .row2 {
   display: flex;
   position: relative;
-  right: -37%;
+  right: -39.7%;
   top: -70%;
 }
 .row3 {
   display: flex;
   position: relative;
-  right: -21.4%;
+  right: -25.1%;
   top: -70%;
 }
 .row4 {
   display: flex;
   position: relative;
-  right: -5.8%;
+  right: -10.5%;
   top: -70%;
 }
 .row5 {
   display: flex;
 
   position: relative;
-  right: 9.8%;
+  right: 4.1%;
   top: -70%;
 }
 .row6 {
   display: flex;
   position: relative;
-  right: 9.8%;
+  right: 4.1%;
   top: -70%;
 }
 .row7 {
   display: flex;
   position: relative;
-  right: -5.8%;
+  right: -10.5%;
   top: -70%;
 }
 .row8 {
