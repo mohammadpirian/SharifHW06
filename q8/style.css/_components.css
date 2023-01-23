@@ -1,18 +1,22 @@
 img {
   width: 300px;
-  height: 300px;
+  height: 25vh;
 }
 .item {
   width: 300px;
-  height: 300px;
+  height: 25vh;
 }
 .container {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  position: relative;
 }
 .items {
-  width: 100vw;
+  position: absolute;
+  /* top: -4vh;
+  right: -26rem; */
+  width: 125vw;
   height: 100vh;
   transform: rotate(45deg);
   display: flex;
