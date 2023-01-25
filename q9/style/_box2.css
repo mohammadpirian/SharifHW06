@@ -1,0 +1,23 @@
+.img-box-2 img {
+  width: 65rem;
+}
+
+.txt-box-2 {
+  width: 50rem;
+  margin-left: 15rem;
+  margin-top: 7rem;
+}
+.txt-box-2 h2 {
+  margin-bottom: 3rem;
+  font-size: 55px;
+  font-weight: 500;
+  color: gray;
+}
+.txt-box-2 p {
+  margin-bottom: 4rem;
+  font-size: medium;
+  color: gray;
+}
+.box-2 {
+  display: flex;
+}
