@@ -36,6 +36,8 @@ li a:hover:not(.active) {
 }
 .img-box-1 img {
   width: 65rem;
+  filter: drop-shadow(15px 10px 4px #6b2e8aa6);
+  
 }
 .img-box-1 {
   position: relative;

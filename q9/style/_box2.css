@@ -1,6 +1,7 @@
 .img-box-2 img {
   width: 65rem;
   margin-left: 10rem;
+  filter: drop-shadow(15px 10px 4px #6b2e8aa6);
 }
 
 .txt-box-2 {
