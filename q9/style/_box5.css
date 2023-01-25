@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 }
-.cards-box-5 img {
+.prof-pic {
   width: 7rem;
   border-radius: 50%;
 }
@@ -43,4 +43,10 @@
 }
 .bottom-cards-box-5 p {
   font-size: medium;
+}
+.quete {
+  position: absolute;
+  left: 1rem;
+  width: 2rem;
+  top: 1.5rem;
 }
