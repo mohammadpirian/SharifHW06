@@ -1,17 +1,14 @@
 "use strict";
 
-const divNotif = document.querySelector(".mamad");
+const massage = document.querySelector(".massage");
 function shownNotification(item) {
   const styleTop = item.top;
-  divNotif.style.top = `${styleTop}px`;
-  divNotif.style.right = `${styleTop}px`;
-  divNotif.innerHTML = item.html;
-  divNotif.classList.add = item.className;
-  console.log(divNotif.classList);
-  
+  massage.style.top = `${styleTop}px`;
+  massage.style.right = `${styleTop}px`;
+  massage.innerHTML = item.html;
+  massage.classList.add = item.className;
+  console.log(massage.classList);
 }
-
-
 
 shownNotification({
   top: +prompt("top"),
