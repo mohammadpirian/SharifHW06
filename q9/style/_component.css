@@ -168,19 +168,32 @@ li a:hover:not(.active) {
 }
 
 .txt-box-4 {
+  margin-top: 10rem;
   text-align: center;
 }
 .card-box-4 {
   display: flex;
   justify-content: center;
+  gap: 2rem;
 }
 .cards-box-4 {
+  display: flex;
+  flex-direction: column;
   position: relative;
   align-items: center;
-  justify-content: center;
+
   width: 25rem;
   border: #0000000b solid;
   border-radius: 2rem;
-  margin: 7rem;
-  padding: 4rem;
+  margin-top: 2rem;
+}
+.cards-box-4 h2 {
+  margin-bottom: 5rem;
+}
+.cards-box-4 h2 {
+  margin-bottom: 5rem;
+}
+.cards-box-4 button {
+  margin: 2.5rem 0rem;
+  padding: 1rem 2.5rem;
 }
