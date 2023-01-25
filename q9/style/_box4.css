@@ -106,6 +106,7 @@ input:checked + .slider:before {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 1rem;
+  box-shadow: 6px 12px #0000000b;
   animation: fadeIn 1s;
 }
 

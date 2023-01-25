@@ -75,6 +75,7 @@
   background-image: url("/q9/wave/svg.png");
   background-size: contain;
   background-repeat: no-repeat;
+  box-shadow: 4px 8px #0000000b;
   animation: fadeIn 1s;
 }
 .cards-box-3:hover p {
