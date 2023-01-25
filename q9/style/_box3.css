@@ -22,6 +22,7 @@
   width: 25rem;
   border: #0000000b solid;
   border-radius: 2rem;
+  background-image: none;
 
   padding: 4rem;
 }
@@ -74,10 +75,19 @@
   background-image: url("/q9/wave/svg.png");
   background-size: contain;
   background-repeat: no-repeat;
+  animation: fadeIn 1s;
 }
 .cards-box-3:hover p {
   color: white;
 }
 .cards-box-3:hover h2 {
   color: white;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
