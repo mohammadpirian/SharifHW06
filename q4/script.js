@@ -1,16 +1,18 @@
 "use strict";
-const massage = document.querySelector(".massage");
-function helloworld(item) {
-  const styletop = item.top;
-  massage.style.top = `${styletop}px`;
-  massage.style.right = `${styletop}px`;
-  massage.innerHTML = item.html;
-  massage.classList.add = item.className;
-  console.log(massage.classList);
+
+const divNotif = document.querySelector(".massage");
+function shownNotification(item) {
+  const styleTop = item.top;
+  divNotif.style.top = `${styleTop}px`;
+  divNotif.style.right = `${styleTop}px`;
+  divNotif.innerHTML = item.html;
+  divNotif.classList.add = item.className;
+  console.log(divNotif.classList);
 }
-helloworld({
-  top: 500,
-  right: 500,
-  html: "Hello",
+
+shownNotification({
+  top: +prompt("top"),
+  right: +prompt("right"),
+  html: prompt("write sth"),
   className: "welcome",
 });
