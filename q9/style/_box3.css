@@ -3,6 +3,8 @@
   flex-direction: column;
 }
 .box-3 h2 {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 .icons-box-3 {
@@ -69,5 +71,13 @@
 }
 
 .cards-box-3:hover {
-  background-color: #7c2fbb;
+  background-image: url("/q9/wave/svg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cards-box-3:hover p {
+  color: white;
+}
+.cards-box-3:hover h2 {
+  color: white;
 }
