@@ -36,9 +36,12 @@
   display: flex;
   margin-top: 1.5rem;
 }
-.input-footer button {
+.send-btn {
   width: 6rem;
   background-color: #01d8ff;
+}
+.send-btn:hover {
+  background-color: #905eb8;
 }
 .footer-btns {
   display: flex;
@@ -62,4 +65,12 @@
 .logo-nav {
   width: 25rem;
   margin-left: 13rem;
+}
+.bottom-footer {
+  margin: 3rem;
+  text-align: center;
+}
+.bottom-footer hr {
+  margin: 1rem 40rem 3rem;
+  width: 75rem;
 }

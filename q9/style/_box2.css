@@ -1,5 +1,6 @@
 .img-box-2 img {
   width: 65rem;
+  margin-left: 10rem;
 }
 
 .txt-box-2 {
@@ -11,13 +12,21 @@
   margin-bottom: 3rem;
   font-size: 55px;
   font-weight: 500;
-  color: gray;
+  color: #090d10;
 }
 .txt-box-2 p {
   margin-bottom: 4rem;
   font-size: medium;
-  color: gray;
+  color: #383e3c;
 }
 .box-2 {
   display: flex;
+}
+.green-arrow {
+}
+.arrow {
+  width: 3.5rem;
+  position: absolute;
+  left: 85rem;
+  rotate: 90deg;
 }

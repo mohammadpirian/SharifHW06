@@ -29,6 +29,7 @@ li a:hover:not(.active) {
   background-color: #01d8ff;
   border-radius: 1.2rem;
 }
+
 .box-1 {
   background-image: linear-gradient(#905eb8, #8eadc7);
   display: flex;
