@@ -89,3 +89,98 @@ li a:hover:not(.active) {
 .box-2 {
   display: flex;
 }
+.box-3 {
+  display: flex;
+  flex-direction: column;
+}
+.box-3 h2 {
+  text-align: center;
+}
+.icons-box-3 {
+  width: 7rem;
+}
+.card-box-3 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.cards-box-3 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  border: #0000000b solid;
+  border-radius: 2rem;
+
+  padding: 4rem;
+}
+
+.div-img-card-1 {
+  background-color: #f6ecea;
+  border-radius: 50%;
+  padding: 15px;
+  width: 10rem;
+  height: 10rem;
+  margin: 0rem 4rem;
+  margin-bottom: 1rem;
+}
+.div-img-card-2 {
+  background-color: #faf1e8;
+  border-radius: 50%;
+  padding: 15px;
+  width: 10rem;
+  height: 10rem;
+  margin: 0rem 4rem;
+  margin-bottom: 1rem;
+}
+.div-img-card-3 {
+  background-color: #e7f5f5;
+  border-radius: 50%;
+  padding: 15px;
+  width: 10rem;
+  height: 10rem;
+  margin: 0rem 4rem;
+  margin-bottom: 1rem;
+}
+.div-img-card-4 {
+  background-color: #f4e8f6;
+  border-radius: 50%;
+  padding: 15px;
+  width: 10rem;
+  height: 10rem;
+  margin: 0rem 4rem;
+  margin-bottom: 1rem;
+}
+.cards-box-3 h2 {
+  margin-top: 4rem;
+}
+.cards-box-3 p {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cards-box-3:hover {
+  background-color: #7c2fbb;
+}
+.box-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-box-4 {
+  text-align: center;
+}
+.card-box-4 {
+  display: flex;
+  justify-content: center;
+}
+.cards-box-4 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  border: #0000000b solid;
+  border-radius: 2rem;
+  margin: 7rem;
+  padding: 4rem;
+}
