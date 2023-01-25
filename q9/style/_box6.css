@@ -39,8 +39,15 @@
   margin: 2rem 0rem;
   width: 18rem;
   height: 4rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #01d8ff;
+  color: #fafafa;
 }
 .txt-box-6 {
   margin-top: 10rem;
   text-align: center;
+}
+.bottom-box-6 button:hover {
+  background-color: #7c2fbb;
 }
