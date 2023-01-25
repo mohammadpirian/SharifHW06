@@ -1,7 +1,6 @@
 .box-5 {
   display: flex;
   flex-direction: column;
-  
 }
 .prof-pic {
   width: 7rem;
@@ -11,7 +10,6 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-  
 }
 .cards-box-5 {
   display: flex;
@@ -23,7 +21,7 @@
   border-radius: 2rem;
   margin-top: 2rem;
   padding: 2rem;
-  
+  box-shadow: 2px 4px #0000000b;
 }
 .txt-box-5 {
   margin-top: 10rem;

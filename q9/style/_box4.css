@@ -22,6 +22,7 @@
   border: #0000000b solid;
   border-radius: 1rem;
   margin-top: 2rem;
+  box-shadow: 2px 4px #0000000b;
 }
 .cards-box-4 h2 {
   margin-bottom: 5rem;
@@ -105,6 +106,7 @@ input:checked + .slider:before {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 1rem;
+  animation: fadeIn 1s;
 }
 
 .cards-box-4:hover .p1 {

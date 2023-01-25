@@ -23,7 +23,7 @@
   border: #0000000b solid;
   border-radius: 2rem;
   background-image: none;
-
+  box-shadow: 2px 4px #0000000b;
   padding: 4rem;
 }
 
